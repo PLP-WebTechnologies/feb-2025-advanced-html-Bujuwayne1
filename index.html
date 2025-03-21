@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+
+    <h1>Advanced HTML5 Elements and Forms</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Sample Image from Pexels" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Street, Nairobi</td>
+            <td>+254712345678</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Avenue, Mombasa</td>
+            <td>+254711223344</td>
+            <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Ross</td>
+            <td>789 Lane, Kisumu</td>
+            <td>+254799887766</td>
+            <td>mikeross@example.com</td>
+        </tr>
+        <tr>
+            <td>Susan White</td>
+            <td>321 Boulevard, Nakuru</td>
+            <td>+254700112233</td>
+            <td>susanwhite@example.com</td>
+        </tr>
+        <tr>
+            <td>Chris Brown</td>
+            <td>654 Road, Eldoret</td>
+            <td>+254722334455</td>
+            <td>chrisbrown@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <label>Preferred Contact Method:</label>
+        <input type="radio" name="contact" value="email" checked> Email
+        <input type="radio" name="contact" value="phone"> Phone
+        <br><br>
+
+        <label>Interests:</label>
+        <input type="checkbox" name="interest" value="coding"> Coding
+        <input type="checkbox" name="interest" value="music"> Music
+        <input type="checkbox" name="interest" value="sports"> Sports
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
